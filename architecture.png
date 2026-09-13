@@ -1,0 +1,23 @@
+Internet
+    |
+    | HTTP 80
+    ↓
+Application Load Balancer
+    |
+    | HTTP 80
+    ↓
+Private EC2
+10.0.4.154
+    |
+   Nginx
+
+
+Laptop
+   |
+   | SSH 22
+   ↓
+Bastion EC2
+   |
+   | SSH 22
+   ↓
+Private EC2
